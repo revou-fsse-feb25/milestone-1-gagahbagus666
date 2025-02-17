@@ -21,8 +21,9 @@ an overview of my journey as a software engineer and a personal portfolio websit
 #### How to Open website
 
 1. open this site to open
+```sh
 https://revou-fsse-feb25.github.io/milestone-1-gagahbagus666/index.html
-
+```
 #### Future Enhancements
 
 - CSS Styling
