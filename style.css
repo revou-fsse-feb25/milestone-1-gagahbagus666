@@ -15,6 +15,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    background-color: #f7efd2
 }
 
 body{
@@ -314,4 +315,9 @@ nav ul li a {
 
 .project-title, .project-tags, .project-info p {
     margin-left: 1.5rem;
+}
+
+.project {
+    background-color: #af7c74; 
+    padding: 50px;
 }
