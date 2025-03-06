@@ -262,8 +262,7 @@ nav ul li a {
 /* Project section */
 #project {
     padding: 4rem 0;
-    background-color: #ffffff; /* Change this to your desired background color */
-    align-items: center;
+    background-color: #ffffff;
     margin: 0 auto;
 }
 
@@ -316,7 +315,6 @@ nav ul li a {
     margin-left: 1.5rem;
 }
 
-.project {
-    background-color: #af7c74; 
+.project { 
     padding: 50px;
 }
