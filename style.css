@@ -157,7 +157,7 @@ nav ul li a {
 
 /* burger */
 .burger {
-    display: none; /* Hide burger icon by default */
+    display: none; 
     z-index: 99;
     position: fixed;
     top: 33px;
@@ -531,14 +531,21 @@ contact-item-detail h4 {
 
 /* footer */
 
+/* footer */
 .footer {
     background: rgba(214, 219, 212, 0.63);
     padding: 4rem 0;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .footer-icons {
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
 }
 
 .footer-icons a {
@@ -546,9 +553,17 @@ contact-item-detail h4 {
 }
 
 .footer-icons svg {
-    fill: rgba(30, 127, 98, 0.8);
+    fill: --PrimaryIconColor;
 }
 
 .footer-icons a:hover svg {
-    fill: rgba(30, 127, 98, 0.8);
+    fill: --PrimaryIconColor;
+}
+
+.footer p {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
