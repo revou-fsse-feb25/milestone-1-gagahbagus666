@@ -339,7 +339,7 @@ nav ul li a {
 }
 
 .education .line {
-    padding: 0 .7rem
+    padding: rem
 }
 
 .education .line div {
@@ -350,33 +350,135 @@ nav ul li a {
 }
 
 .education-info p {
-    margin: 0.6rem 0 1.4rem;
+    margin: 0.6rem 1 1rem;
 }
 
 .education-years {
-    argin-bottom: 3rem;
+    margin-bottom: 3rem;
 }
 
 /* outside border line */
 
 .education .line div:before {
     content: "";
-    width: 10px;
-    height: 10px;
-    background: var(--PrimaryBorderColor);
+    width: 15px;
+    height: 15px;
+    background: rgb(30, 127, 98);
     border-radius: 50%;
     position: absolute;
-    top: -5px;
-    left: -5px;
+    left: -6px;
 }
 
+  /* Right side of Skills */
 .skills-list {
     display: grid;
-    grid-template-column: 1fr 1fr;
-    gap: 1rem;
-} 
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1.5rem;
+}
 
 .skills-right ul {
     line-height: 2rem;
     padding: 0 1rem;
 }
+
+  /* Contact Section */
+#contact {
+    padding: rgba(214, 219, 212, 0.63);
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 3rem;
+}
+
+.contact-form div {
+    margin-bottom: 1.4rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    background: rgba(214, 219, 212, 0.63);
+    border: 1px solid #7d7d7d;
+    border-radius: 3px;
+    resize: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #9d9fa1;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border: 1px solid #7d7d7d;
+}
+
+.btn-submit {
+    width: 100%;
+    padding: 0.75rem 1.3rem;
+    background-color: rgb(153, 176, 169);
+    color: rgba(255, 255, 255, 0.9);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-submit:hover {
+    background-color: rgba(30, 127, 98, 0.8);
+}
+
+  /* Contact Section - Right Side */
+.contact-item {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.contact-item-icon {
+    background: rgba(214, 219, 212, 0.63);
+    padding: 0.8rem 1rem;
+    width: 53px;
+    height: 53px;
+    border-radius: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item-icon svg {
+    fill: rgba(30, 127, 98, 0.8);
+}
+
+.contact-item-detail h4 {
+    margin-bottom: 0.6rem;
+}
+
+  /* Footer Section */
+footer {
+    padding: 4rem 0;
+    background: var(--secondaryBackgroundColor);
+    text-align: center;
+}
+
+.footer-icons {
+    margin-bottom: 1rem;
+}
+
+.footer-icons a {
+    margin: 0 0.5rem;
+}
+
+.footer-icons svg {
+    fill: #3e3f40;
+}
+
+.footer-icons a:hover svg {
+    fill: #000;
+}
+
