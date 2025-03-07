@@ -528,3 +528,27 @@ contact-form input:focus, .contact-form textarea:focus {
 contact-item-detail h4 {
     margin-bottom: 0.6rem;
 }
+
+/* footer */
+
+.footer {
+    background: rgba(214, 219, 212, 0.63);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.footer-icons {
+    margin-bottom: 1rem;
+}
+
+.footer-icons a {
+    margin: 0 1rem;
+}
+
+.footer-icons svg {
+    fill: rgba(30, 127, 98, 0.8);
+}
+
+.footer-icons a:hover svg {
+    fill: rgba(30, 127, 98, 0.8);
+}
