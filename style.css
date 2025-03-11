@@ -539,7 +539,6 @@ contact-item-detail h4 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .footer-icons {
@@ -557,13 +556,12 @@ contact-item-detail h4 {
 }
 
 .footer-icons a:hover svg {
-    fill: --PrimaryIconColor;
+    fill: rgba(30, 127, 98, 0.8);
 }
 
 .footer p {
     text-align: center;
     width: 100%;
     margin: 0;
-    display: flex;
     justify-content: center;
 }
