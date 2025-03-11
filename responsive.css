@@ -15,6 +15,16 @@
 .burger {
     display: block;
     cursor: pointer;
+    z-index: 10;
+}
+
+.burger span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background: #333;
+    transition: all 0.3s ease;
 }
 
 .toggle-burger .line-1 {
@@ -29,7 +39,6 @@
     transform: rotate(45deg) translate(-5px, -7px);
 }
 
-  /* Navigation */
 nav {
     position: fixed;
     width: 50%;
@@ -54,7 +63,6 @@ nav ul {
 .nav-active {
     transform: translateX(0);
 }
-  /* End of Navigation */
 
 :root {
     --sectionPadding: 4rem 0;
@@ -98,6 +106,25 @@ nav ul {
     margin-bottom: 0.5rem;
 }
 
+.contact {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-item {
+    align-items: flex-start;
+}
+
+.contact-item-icon {
+    width: 40px;
+    height: 40px;
+}
+}
+
   /* Skills Section */
 .skills-grid {
     gap: 1rem;
@@ -106,7 +133,6 @@ nav ul {
   /* Footer */
 footer {
     padding: 2rem 0;
-}
 }
 
 /* Mobile Size */
@@ -119,5 +145,32 @@ footer {
     .pre-title {
     font-size: 0.7rem;
     }
+    .burger {
+        display: block;
+        cursor: pointer;
+        z-index: 10;
+    }
+    
+    .burger span {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px;
+        background: #333;
+        transition: all 0.3s ease;
+    }
+    
+    .toggle-burger .line-1 {
+        transform: rotate(-45deg) translate(-5px, 7px);
+    }
+    
+    .toggle-burger .line-2 {
+        opacity: 0;
+    }
+    
+    .toggle-burger .line-3 {
+        transform: rotate(45deg) translate(-5px, -7px);
+    }
 }
+
 
