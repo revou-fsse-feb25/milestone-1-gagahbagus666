@@ -559,9 +559,10 @@ contact-item-detail h4 {
     fill: rgba(30, 127, 98, 0.8);
 }
 
-.footer p {
+#creator {
     text-align: center;
     width: 100%;
     margin: 0;
+    display: flex;
     justify-content: center;
 }
